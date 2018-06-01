@@ -1,2 +1,2 @@
 # protractorFramework
-Exercício para aprendizados mais avançados sobre a api do proractor
+Exercício para aprendizados mais avançados sobre a api do protractor
