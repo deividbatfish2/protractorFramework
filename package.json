@@ -12,6 +12,7 @@
     "protractor": "^5.3.2"
   },
   "dependencies": {
+    "jasmine": "^3.1.0",
     "winston": "^2.4.2"
   }
 }

@@ -1,4 +1,5 @@
 const BasePageObjects = require('./base/BasePageObjects')
+const ResultPage = require('./ResultPage')
 
 class GooglePage extends BasePageObjects {
     constructor () {
@@ -10,6 +11,7 @@ class GooglePage extends BasePageObjects {
     pesquisar (text) {
         this.q.escrever(text);
         this.btn.clicar();
+        return new ResultPage()
     }
 }
 
